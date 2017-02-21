@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="pubstrak.ahanaprods.com.pubstrak.Login">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress"
+            android:id="@+id/editEmail"
+            android:singleLine="true"
+            android:selectAllOnFocus="false" />
+        <EditText
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPassword"
+            android:hint="Enter your password"
+            android:id="@+id/editPwd" />
+        <Button
+            android:layout_margin="15dp"
+            android:text="Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btLogin" />
+        <TextView
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvForgot"
+            android:text="Forgot Password"
+            android:textColor="@android:color/holo_blue_dark" />
+    </LinearLayout>
+</RelativeLayout>
