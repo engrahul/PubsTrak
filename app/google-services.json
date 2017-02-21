@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "934166404056",
+    "firebase_url": "https://pubstrak.firebaseio.com",
+    "project_id": "pubstrak",
+    "storage_bucket": "pubstrak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934166404056:android:d856098fdca61261",
+        "android_client_info": {
+          "package_name": "pubstrak.ahanaprods.com.pubstrak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934166404056-8tuari7c69edt5v6264o9mt04eleephl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pubstrak.ahanaprods.com.pubstrak",
+            "certificate_hash": "7fdd9b53b97fa8f972bdc6bdfdda28d7bab7f112"
+          }
+        },
+        {
+          "client_id": "934166404056-ruqcaf9e88u8f57uh817jmqcdefjlkia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOXla4YTUqtrDXMOH3XsguxrsbV4DK6Rk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934166404056-ruqcaf9e88u8f57uh817jmqcdefjlkia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
