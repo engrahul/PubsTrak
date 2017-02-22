@@ -85,7 +85,9 @@ public class Login extends AppCompatActivity implements View.OnClickListener{
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         progressDialog.dismiss();
                         if(task.isSuccessful()){
-                            //on successful login, call the main page
+                            //on successful login, get admin access, IsActive state & call the main page
+                            //get IsActive state
+                            
                             finish();   //finish the current activity
                             startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         }
@@ -104,7 +106,6 @@ public class Login extends AppCompatActivity implements View.OnClickListener{
         if(v == btLogin){
             //call custom method
             userLogin();
-            //Toast.makeText(this, "Login not successful. Please try again.", Toast.LENGTH_SHORT).show();
         }
     }
 
