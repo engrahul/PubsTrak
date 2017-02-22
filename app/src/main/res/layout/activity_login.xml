@@ -36,7 +36,6 @@
             android:text="Login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="ValidateCredentials"
             android:id="@+id/btLogin" />
         <TextView
             android:layout_width="match_parent"
